@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="favicon-32x32.png">
+    <title>ONG Cabedelo</title>
+    <style>
+        *{
+   margin: 0; 
+   padding: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+}
+a{
+    color: rgb(0, 0, 0);
+    
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+
+}
+
+
+
+
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #E0FFFF;
+
+
+    height: 8vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobiles-menu{
+    cursor: pointer;
+    display: none;
+}
+.mobiles.menu div{
+    width: 32px;
+    height: 2px;
+    background: #000000;
+    margin: 8px;
+}
+
+@media (max-widht: 999px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-list{
+        position:absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height : 92vh;
+        background: #532c2c;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+
+    }
+    img{
+        align-items: normal;
+    }
+    .texto{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+     p{
+        display: inline-block;
+    }
+    
+
+    
+}
+
+
+    </style>
+
+</head>
+<body>
+   <header>
+    <nav>
+        <a class="logo"><img src=".//Captura_de_tela_2024-05-13_202124-removebg-preview.png" ></a>
+        <div class="mobiles-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="#header">INÍCIO</a></li>
+            <li><a href="#">SOBRE</a></li>
+            <li><a href="#">REDES SOCIAIS</a></li>
+            
+        </ul>
+    </nav>
+</header> 
+ <img src="fotoinicio.png" alt="imagem cachorro" width="1480px">
+ <h1 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; color: #B0E0E6;">SOBRE NÓS</h1>
+ <p style="text-align: justify; font-family: Georgia, 'Times New Roman', Times, serif;">SOMOS UMA ONG DEDICADA A ENCONTRAR LARES AMOROSOS PARA ANIMAIS EM SITUAÇÃO DE RUA. NOSSA EQUIPE É COMPOSTA POR AMANTES DE ANIMAIS COMPROMETIDOS A PROPORCIONAR UMA VIDA MELHOR PARA ESSES ANIMAIS EM QUESTÃO DELICADA. NOSSA PRINCIPAL MISSÃO É CONSTRUIR UMA COMUNIDADE SOLIDÁRIA EM TORNO DA CAUSA DA ADOÇÃO DE ANIMAIS EM SITUAÇÃO DE RUA.</p>
+ <p style="text-align: center;"><a href="página-2.html">Ir para a próxima página</a></p>
+</body>
+</html>
