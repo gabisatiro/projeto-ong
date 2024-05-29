@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Oswald", sans-serif;
+    
 }
+
 .interface{
     max-width: 1280px;
     margin: 0 auto;
@@ -77,7 +79,7 @@ header{
 }
 
 .drop-hover:hover .drop{
-    height: 130px;
+    height: 128px;
 }
 footer{
     background-color: #63bdbd24;
@@ -117,7 +119,11 @@ footer{
 }
 
 body{
-   background-color:  #dcdcdc71	;
+   background-color
+   :  #dcdcdc71	;
+}
+.hero{
+    image-rendering: 100px;
 }
 .h1{
     background-color: rgb(255, 255, 255);
@@ -125,6 +131,7 @@ body{
     text-align: left;
     font-size: 250%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 .primeira_imagem{
     text-align: left;
@@ -135,6 +142,7 @@ body{
     align-items: center;
 }
 h2{
+    text-align: center;
     color: #298d8d;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
@@ -148,3 +156,496 @@ p{
     background-color:#63bdbd51;
     text-align: center;
 }
+
+body{
+    background-color: #ffffffaf;
+}
+.texto-motivos{
+    text-align: left;
+    font-size: large;
+    color: #63bdbd;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+
+.primeira-img{
+    text-align: left;
+     ;
+    
+}
+h2{
+    color: #298d8d;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+p{
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 300px;
+    position: relative;
+    color: rgb(9, 96, 131);
+    text-align: center;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.benefit {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.benefit img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.benefit h3 {
+    margin: 10px 0;
+    color: #0c4a7c;
+}
+
+footer{
+    background-color: #63bdbd24;
+    text-align: center;
+}
+.socialicons{
+    display: flex;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #09aaaa;
+    margin: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: #000000;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 0 0;
+}
+.footerNav ul li a{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    
+}
+footer {
+    background-color: #022738;
+    color: white;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-container > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-container h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-container p, .footer-container ul {
+    font-size: 0.9em;
+}
+
+.footer-container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-container ul li {
+    margin: 5px 0;
+}
+
+.footer-container ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact ul li {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact ul li i {
+    margin-right: 10px;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #63BDBD;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: #02102e;
+}
+
+.footer-bottom p {
+    font-size: 0.8em;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container1 {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212); /* Corrigido o valor alfa para 0.212 */
+}
+
+.form-image {
+    width: 50%; /* Usar porcentagem para consistência */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding: 1rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem; /* Corrigido o sintaxe */
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+.login-button button {
+    border: none;
+    background-color: rgb(33, 219, 219);
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: rgb(100, 217, 228);
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 7rem;
+    height: 0.3rem;
+    background-color: rgb(175, 242, 245);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #68e2eb1c;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: rgb(84, 233, 233);
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    background-color: rgb(100, 217, 228); /* Corrigido para ter uma cor de hover diferente */
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #09aaaa;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.interface {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logotipo {
+    width: 30%;
+}
+
+.logotipo img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-social {
+    float: right;
+}
+
+.btn-social button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.top-header,
+.bottom-header {
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.container3 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+.footerContainer {
+    background-color: #09aaaa;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.socialicons a {
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footerNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerNav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footerNav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footerNav ul li a:hover {
+    color: #f4f4f4;
+}
+
+
+
